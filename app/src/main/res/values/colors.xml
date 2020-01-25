@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0077B5</color>
+    <color name="colorPrimaryDark">#777E8B</color>
+    <color name="white">#ffffff</color>
+
+    <color name="Bluebutton">#0077B5</color>
+    <color name="darcula">#A4B0BD</color>
+    <color name="darkwhite">#EAF0F1</color>
+    <color name="googlered">#DD5144</color>
+    <color name="googleyellow">#FFCD46</color>
+    <color name="googlegreen">#000000</color>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessManagement</string>
+     <string name="exit_messege">Areyou sure</string>
+    <string name="exit">Exit</string>
+    <string name="exit_messeg">Are you Sure?</string>
+    <string name="appname">Messer</string>
+</resources>

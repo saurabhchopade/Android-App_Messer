@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_activity"
+    android:background="@drawable/add"
+    >
+
+
+    <EditText
+        android:id="@+id/et_membername"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:hint="Membername"
+        android:inputType="text"
+
+        />
+
+
+    <EditText
+        android:id="@+id/et_mobilenumber"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="MobileNumber"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_startdate"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="241dp"
+        android:clickable="true"
+        android:hint="StartDate"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/et_enddate"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:clickable="true"
+        android:hint="EndDate"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_Paidamount"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:hint="PaidAmount"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_addmember"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/et_membername"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_button"
+        android:text="Save details"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/et_membername"
+        android:layout_marginTop="18dp"
+        android:text="Member Details"
+        android:textColor="@color/Bluebutton"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tv_dateformat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginTop="250dp"
+        android:text="mm/dd/yy" />
+
+    <TextView
+        android:id="@+id/tv_dateformat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tv_dateformat"
+        android:layout_marginBottom="218dp"
+        android:text="mm/dd/yy"
+
+        />
+
+
+</RelativeLayout>

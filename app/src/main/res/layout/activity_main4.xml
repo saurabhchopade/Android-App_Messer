@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:background="@drawable/d"
+
+    >
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Member"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/rounded_button"
+        android:text="Find member details"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rounded_button"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/rounded_button"
+        android:text="Delete member"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_activity"
+    android:background="@drawable/main"
+    >
+
+
+    <EditText
+
+        android:id="@+id/mem_name"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:hint="Enter only member to get details"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/mob_num"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:hint="MobileNumber"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/st_date"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:hint="StartDate"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/end_date"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Enddate"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/paid_amt"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
+        android:hint="PaidAmount"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/rounded_button"
+        android:text="Show details" />
+
+    <Button
+        android:id="@+id/btn_updatedetails"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rounded_button"
+        android:text="Update Details" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mem_name"
+        android:layout_alignStart="@+id/mem_name"
+        android:layout_marginBottom="-50dp"
+        android:text="Member Details"
+        android:textColor="@color/Bluebutton"
+        android:textSize="24dp" />
+
+</RelativeLayout>
